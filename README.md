@@ -154,15 +154,24 @@ Evaluated only on policies with ≥1 claim (**N = 4,900**).
 
 ---
 
-## 🛠️ Technologies Used
-- Python  
-- Random Forest  
-- GAMLSS  
-- Tweedie GLM  
-- XGBoost  
-- missRanger  
-- Scikit-learn  
-- Statistical distribution modeling  
+## 🛠️ Technologies & Tools Used
+- **R Programming Language**
+- **Data Manipulation & Wrangling**
+  - `dplyr`, `tidyr`, `data.table` 
+- **Data Visualization**
+  - `ggplot2`, `gridExtra`, `patchwork`
+- **Machine Learning & Statistical Modeling**
+  - Random Forest (`randomForest`, `ranger`)
+  - GAMLSS (Generalized Additive Models for Location, Scale, and Shape)
+  - Tweedie Generalized Linear Models
+  - XGBoost (Tweedie objective)
+- **Missing Data Imputation**
+  - `missRanger`
+- **Actuarial & Statistical Techniques**
+  - Statistical distribution modeling
+  - Exposure-adjusted risk modeling
+
+
 
 ---
 
